@@ -1,0 +1,71 @@
+body{
+  text-align:center;
+  background-image:url("http://www.deskcar.com/desktop/else/200891890400/9.jpg");
+  background-size:100% auto;
+  background-repeat:no-repeat;
+}
+
+#outerBorder{
+  background-color:white;
+  width:500px;
+  height:600px;
+  margin:auto;
+  border-style:solid;
+  border-width:1px;
+  border-color:lightgrey;
+  overflow:hidden;
+}
+
+#screenBorder{ 
+  width:450px;
+  height:50px;
+  margin:auto;
+  border-style:solid;
+  border-width:2px;
+  border-color:lightgrey;
+  overflow:hidden;
+}
+
+.eachButtonRow{
+  margin-right:10px;
+  width:60px;
+  height:40px;
+  background-color:rgb(240,240,240);
+  font-family:arial;
+  outline:none;
+}
+
+.eachButtonRow:hover{
+  border-color:lightgrey;
+}
+
+#screenBorder:hover{
+  outline:1px solid lightgrey;  
+}
+
+#theDisplay{
+  color:black;
+  float:right;
+  position:relative;
+  bottom:5px;
+  right:5px;
+}
+
+#equal{
+  background-color:#4d90fe;
+  color:white;
+}
+
+#prevAnsDiv{
+  width:450px;
+  height:10px;
+}
+
+#prevAns{
+  float:right;
+  visibility:hidden;
+}
+
+#explain{
+  color:black;
+}
